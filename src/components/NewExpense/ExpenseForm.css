@@ -1,0 +1,46 @@
+.new-expense-inputs-container{
+    display:flex;
+    flex-wrap: wrap;
+    color: white;
+    row-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.new-expense-inputs{
+    width: 50%;
+}
+
+.new-expense-inputs label input{
+    display: block;
+    padding: 5px;
+    width: 70%;
+    outline: none;
+}
+
+#new-expense-form-submit-btn-container{
+    width: 150px;
+    margin-left: auto;
+}
+
+#new-expense-form-submit-btn{
+    color: white;
+    background-color: rgb(218, 133, 150);
+    border: 2px solid white;
+    padding: 7px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 1px 2px;
+}
+
+#new-expense-form-submit-btn:hover{
+    padding: 8px 22px;
+    margin: 0;
+    background-color: white;
+    background-color: rgb(218, 133, 150);
+
+}
+
+#new-expense-form-submit-btn:active{
+    opacity: 0.5;
+}

@@ -1,0 +1,9 @@
+.new-expense-container{
+    background-color: rgb(0, 83, 142);
+    width: 90%;
+    margin: auto;
+    margin-block: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.618);;
+}
